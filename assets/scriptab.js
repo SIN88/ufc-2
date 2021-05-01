@@ -10,7 +10,7 @@ $("button").click(function () { //click function to use random button
     .then(function (data) { //sets the data received in card form 
       console.log(data);
       $("body").append(`
-      <div class="card" style="background-color:red; color: white; width: 40rem;">
+      <div class="card" style="background-color:red; color: white; width: 80%; margin: auto;">
       <div class="card-body">
       <h3 class="card-title">${data.fields.name.toUpperCase()}</h3>
       <p>Also Known as: ${data.fields.nickname?.toUpperCase()||"N.A"}</p>
