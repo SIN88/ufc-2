@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;    
+
+    /* Background styles */
+    background-image: url(https://wallpapercave.com/wp/wp2653953.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+    color: white; 
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.hero-inner {
+    column-count: 3;
+    column-gap: 500px;
+    color: white;
+}
+
+
+
+
+
+
